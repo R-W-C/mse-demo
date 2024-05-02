@@ -1,9 +1,9 @@
-$('#audio-control').click(function(){
-    if( $("#myVideo").prop('muted') ) {
-          $("#myVideo").prop('muted', false);
-          $(this).text('Mute audio');
+document.getElementById("audio-control").click(function(){
+    if( document.getElementById("myVideo").prop('muted') ) {
+          document.getElementById("myVideo").prop('muted', false);
+          this.innerText = 'Mute audio';
     } else {
-      $("#myVideo").prop('muted', true);
-      $(this).text('Play audio');
+      document.getElementById("myVideo").prop('muted', true);
+      this.innerText = 'Play audio';
     }
 });
