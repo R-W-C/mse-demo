@@ -1,9 +1,6 @@
-document.getElementById("audio-control").click(function(){
-    if( document.getElementById("myVideo").prop('muted') ) {
-          document.getElementById("myVideo").prop('muted', false);
-          this.innerText = 'Mute audio';
-    } else {
-      document.getElementById("myVideo").prop('muted', true);
-      this.innerText = 'Play audio';
-    }
-});
+document.getElementById("audio-control").onclick = function()
+{
+	const myVideo = document.getElementById('myVideo');
+	myVideo.muted = !myVideo.muted;
+	this.innerText = myVideo.muted ? 'Play audio' : 'Mute audio';
+};
