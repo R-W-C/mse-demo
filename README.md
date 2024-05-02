@@ -1,8 +1,11 @@
 
 Code to play video with Media Source Extensions (MSE) API
 
-Based on code found here: https://github.com/bitmovin/mse-demo/blob/main/index.html
-For a good explanation on the MSE API, see https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/dn551368(v=vs.85)?redirectedfrom=MSDN
+Based on code found here: 
+https://github.com/bitmovin/mse-demo/blob/main/index.html
+
+For a good explanation on the MSE API, see 
+https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/dn551368(v=vs.85)?redirectedfrom=MSDN
 
 Command line command used to create segments of 10 seconds and frgaments of 1 second:
 
