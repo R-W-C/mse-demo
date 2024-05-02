@@ -37,7 +37,7 @@
   	"part_1159168.m4s"
   ];
 
-  const BASEURL = './video/Ines4/';
+  const BASEURL = './video/';
 
   const MIMETYPE = 'video/mp4';
   const CODECS = 'mp4a.40.2,avc1.640029'; //Get this from mpd-file
