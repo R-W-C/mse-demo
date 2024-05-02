@@ -9,7 +9,7 @@
 * For a good explanation, see
 * https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/dn551368(v=vs.85)?redirectedfrom=MSDN
 *
-* Command line command used to create segments of 10 seconds and frgaments of 1 second:
+* Command line command used to create segments with a segment timeline:
 *
 * MP4Box -dash 10000 -segment-name part_  -url-template "massage in aandacht-merged (720p + audio).mp4" -rap -segment-timeline
 *
