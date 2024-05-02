@@ -9,7 +9,7 @@ https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie
 
 Command line command used to create segments with a segment timeline:
 
-MP4Box -dash 10000 -segment-name part_  -url-template "massage in aandacht-merged (720p + audio).mp4" -rap -segment-timeline
+MP4Box -dash 10000 -segment-name part_  -url-template "original.mp4" -rap -segment-timeline
 
 Output:
 * 1 mp4-file ("part_init.mp4")
