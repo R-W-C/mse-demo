@@ -15,3 +15,6 @@ Output:
 * 1 mp4-file ("part_init.mp4")
 * 10 m4s-files ("part_0.m4s", "part_154112.m4s" .. "part_1159168.m4s")
 * 1 mpd-file ("massage in aandacht-merged (720p + audio)_dash.mpd")
+
+
+Demo site: https://r-w-c.github.io/mse-demo
