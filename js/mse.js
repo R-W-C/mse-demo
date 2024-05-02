@@ -25,22 +25,26 @@
   const INITURL = 'part_init.mp4';
 
   const CHUNKS = [
-  	"part_0.m4s",
-  	"part_154112.m4s",
-  	"part_296960.m4s",
-  	"part_411136.m4s",
-  	"part_587264.m4s",
-  	"part_654848.m4s",
-  	"part_802816.m4s",
-  	"part_939520.m4s",
-  	"part_1026048.m4s",
-  	"part_1159168.m4s"
+	  "part_0.m4s",
+	  "part_153856.m4s",
+	  "part_296704.m4s",
+	  "part_411136.m4s",
+	  "part_560896.m4s",
+	  "part_651008.m4s",
+	  "part_779008.m4s",
+	  "part_939264.m4s",
+	  "part_1025792.m4s",
+	  "part_1158912.m4s"
   ];
+
+
+
+
 
   const BASEURL = './video/';
 
   const MIMETYPE = 'video/mp4';
-  const CODECS = 'mp4a.40.2,avc1.640029'; //Get this from mpd-file
+  const CODECS = 'avc1.640020,mp4a.40.2'; //Get this from mpd-file
 
   var sourceBuffer;
   var index = 0;
