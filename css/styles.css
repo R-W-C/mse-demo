@@ -1,3 +1,8 @@
+#myVideo {
+  width: 640px;
+  border: 1px solid #000;
+}
+
 #audio-control {
   cursor:pointer;
   padding: 10px 20px;
