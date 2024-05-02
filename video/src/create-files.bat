@@ -1,0 +1,1 @@
+MP4Box -dash 10000 -segment-name part_  -url-template original.mp4 -rap -segment-timeline
